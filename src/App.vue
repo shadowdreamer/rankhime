@@ -6,6 +6,7 @@
         <span class="font-weight-light">DD test</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
+      <v-btn flat small href="https://github.com/shadowdreamer/rankhime" target="_blank">github</v-btn>
     </v-toolbar>
     <v-content>
       <div v-if="step==0">

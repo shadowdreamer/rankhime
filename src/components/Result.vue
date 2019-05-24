@@ -59,18 +59,7 @@ export default {
       });
   },
   methods: {
-    style(c) {
-      function width() {
-        if (c == 100) return "100%";
-        if (c >= 50) return "50%";
-        return "25%";
-      }
-      return {
-        color: "#fff",
-        backgroundColor: `rgba(247, 65, 65, ${c / 100})`,
-        width: `${width()}`
-      };
-    }
+
   }
 };
 </script>
